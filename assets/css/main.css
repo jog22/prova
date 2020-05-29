@@ -2291,3 +2291,19 @@ button,
 #menu input:checked ~ label:before{ content:"\025be";}
 #menu .interior{display: none;}
 #menu input:checked ~ ul{display:block;}
+
+#menu > details > summary {
+	padding: 4px;
+	width: 200px;
+	background-color: #fccdcd;
+	border: none;
+	box-shadow: 1px 1px 2px #fccdcd;
+	cursor: pointer;
+}
+
+#menu > details > p {
+	/* background-color: #eeeeee; */
+	padding: 4px;
+	margin: 0;
+	/* box-shadow: 1px 1px 2px /* #f56a6a */; */
+}
