@@ -2293,11 +2293,12 @@ button,
 #menu input:checked ~ ul{display:block;}
 
 #menu > details > summary {
+	color: #f99b9b;
 	padding: 4px;
 	width: 200px;
-	background-color: #fccdcd;
+	/* background-color: #fccdcd;*/
 	border: none;
-	box-shadow: 1px 1px 2px #fccdcd;
+	/* box-shadow: 1px 1px 2px #fccdcd; */
 	cursor: pointer;
 }
 
