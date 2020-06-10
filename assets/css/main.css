@@ -71,8 +71,12 @@ input, select, textarea {
 	appearance: none;
 }
 
+.fuente {
+font-size: 0.8em;
+font-weight: 600;
+}
+
 /* Basic */
-@
 -ms-viewport {
 	width: device-width;
 }
@@ -180,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "Roboto Slab", serif;
 	font-weight: 700;
 	line-height: 1.5;
-	margin: 0 0 1em 0;
+	margin: 0 0 0.5em 0; /* margin: 0 0 1em 0; */
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -290,7 +294,7 @@ hr {
 }
 
 hr.major {
-	margin: 3em 0;
+	margin: 2em 0;
 }
 
 .align-left {
@@ -1807,7 +1811,7 @@ ol li {
 
 ul {
 	list-style: disc;
-	margin: 0 0 2em 0;
+	margin: 0 0 0.5em 0; /* margin: 0 0 2em 0; */
 	padding-left: 0.1em;
 }
 
@@ -2462,7 +2466,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 
 .posts article .image {
 	display: block;
-	margin: 0 0 2em 0;
+	margin: 0 0 2em 0; 
 }
 
 .posts article .image img {
@@ -2611,7 +2615,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 		padding: 0 5em 0.1em 5em;
 	}
 	#main>.inner>section {
-		padding: 5em 0 3em 0;
+		padding: 2em 0 1em 0; /* padding: 5em 0 3em 0;*/
 	}
 }
 
@@ -2620,7 +2624,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 		padding: 0 4em 0.1em 4em;
 	}
 	#main>.inner>section {
-		padding: 4em 0 2em 0;
+		padding: 1em 0 1em 0; /* padding: 4em 0 2em 0; */
 	}
 }
 
@@ -2629,7 +2633,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 		padding: 0 2em 0.1em 2em;
 	}
 	#main>.inner>section {
-		padding: 3em 0 1em 0;
+		padding: 1em 0 1em 0; /* padding: 3em 0 1em 0; */
 	}
 }
 
@@ -3049,7 +3053,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 	text-transform: none;
 }
 
-#menu ul a, #menu ul span {
+#menu ul span {
 	border-bottom: 0;
 	color: inherit;
 	cursor: pointer;
@@ -3057,6 +3061,16 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 	font-size: 0.9em;
 	padding: 0.2em 0;
 } /*padding: 0.625em 0;*/
+
+#menu ul a {
+	border-bottom: 0;
+	color: inherit;
+	cursor: pointer;
+	display: inline;
+	font-size: 0.9em;
+	padding: 0.2em 0;
+}
+
 #menu ul a:hover, #menu ul span:hover {
 	color: #f56a6a;
 }
@@ -3177,6 +3191,12 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 	display: none;
 }
 
+#menu >li >ul >p>.fuente {
+	font-size: 0.8em;
+	font-weight: 600;
+	display: inline;
+}
+
 #menu input:checked ~ ul {
 	display: block;
 }
@@ -3195,8 +3215,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 	/* background-color: #eeeeee; */
 	padding: 4px;
 	margin: 0;
-	/* box-shadow: 1px 1px 2px /* #f56a6a */;
-	*/
+	/* box-shadow: 1px 1px 2px  #f56a6a ; */
 }
 
 dialog {

@@ -8,8 +8,8 @@
 <head>
 <title>Web JOG</title>
 <meta charset="utf-8" />
-<meta name="viewport"
-	content="width=device-width, initial-scale=1, user-scalable=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<link rel="icon" href="/images/favicon.png" type="image/png"/> 
 <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 <body class="is-preload">
@@ -49,8 +49,16 @@
 						<p>El objetivo de esta pagina web es crear un punto común de
 							entrada a toda la información recopilada durante años que me
 							interesa, clasificada por áreas temáticas.</p>
+							<a href="popup.html" target="popup"
+							onClick="window.open(this.href, this.target, 'toolbar=0 , location=0 , status=0 , menubar=0 , scrollbars=0 , resizable=1 ,left=350pt,top=350pt,width=500px,height=350px'); return false;">
+							Enlaces interesantes
+							</a>
+						<!-- <a href="javascript:Abrir_ventana(‘iframe.html’)">Abrir ventana emergente – PopUp</a></br>
+						<a href="javascript:ventanaSecundaria('iframe.html')"> Enlaces interesantes</a>	 -->
+						<!-- <iframe src="iframe.html" width="100%" height="80" style="border:1px solid red;">
+						</iframe>
+							<a target="_top" href="iframe.html" height="300px" width="50%" >enlaces wya</a>
 						<ul class="actions">
-							<!-- <li><a href="#" class="button big">Detalles</a></li> -->
 							<dialog id="dialog-1">
 							<h5>Bibliotecas Nacionales</h5>
 							<p>
@@ -74,7 +82,23 @@
 							<p>
 								<input class="button small" value="Enlaces interesantes"
 									onclick="document.getElementById('dialog-1').setAttribute('open', 'open')">
-							</p>
+							</p> -->
+							<svg height="50" width="100">
+							<defs>
+								<linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+								<stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+								<stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+								</linearGradient>
+							</defs>
+							<ellipse cx="60" cy="30" rx="35" ry="15" fill="url(#grad1)" />
+							<text fill="#ffffff" font-size="20" font-family="Verdana" x="40" y="36">JOG</text>
+							Sorry, tu navegador no soporta SVG.
+							</svg>
+						
+							<!-- <video width="320" height="240" controls>
+							<source src="/videos/Video.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+							</video> -->
 						</ul>
 					</div>
 					<span class="image object"> <img src="images/portada.jpg" alt="" />
@@ -120,6 +144,19 @@
 
 				<!-- Section -->
 				<section>
+					<!-- <svg height="130" width="500">
+					<defs>
+						<linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+						<stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+						<stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+						</linearGradient>
+					</defs>
+					<ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+					<text fill="#ffffff" font-size="25" font-family="Verdana" x="50" y="86">JOG1</text>
+					Sorry, your browser does not support inline SVG.
+					</svg> -->
+					
+					
 					<div class="posts">
 						<article>
 							<a href="pages/historia.html" class="image"><img

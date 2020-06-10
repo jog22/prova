@@ -49,36 +49,10 @@
 						<p>El objetivo de esta pagina web es crear un punto común de
 							entrada a toda la información recopilada durante años que me
 							interesa, clasificada por áreas temáticas.</p>
-						<ul class="actions">
-							<dialog id="dialog-1">
-							<h4>Bibliotecas Nacionales</h4>
-							<p>
-								<a target="_blank" href="https://www.wdl.org/es/">Biblioteca
-									Digital Mundial</a>
-							</p>
-							<p>
-								<a target="_blank" href="http://www.bne.es">Biblioteca
-									Nacional de España</a>
-							</p>
-							<p>
-								<a target="_blank" href="http://bdh.bne.es/">Biblioteca
-									Digital Hispánica</a>
-							</p>
-							<h4>Diccionarios</h4>
-							<p>
-								<a target="_blank" href="https://dle.rae.es/?w=diccionario ">Dicionario
-									RAE</a>
-							</p>
-							<p>
-								<input class="button small" value="Cerrar"
-									onclick="document.getElementById('dialog-1').removeAttribute('open')">
-							</p>
-							</dialog>
-							<p>
-								<input class="button small" value="Enlaces interesantes"
-									onclick="document.getElementById('dialog-1').setAttribute('open', 'open')">
-							</p>
-						</ul>
+							<a href="popup.html" target="popup"
+							onClick="window.open(this.href, this.target, 'toolbar=0 , location=0 , status=0 , directories=0 , menubar=0 , scrollbars=0 , resizable=1 ,left=350pt,top=350pt,width=320px,height=200px'); return false;">
+							Enlaces interesantes
+							</a>
 					</div>
 					<span class="image object"> <img src="images/portada.jpg"
 						alt="" />
@@ -192,13 +166,6 @@
 		<!-- Sidebar -->
 		<div id="sidebar">
 			<div class="inner">
-
-				<!-- Search -->
-				<section id="search" class="alt">
-					<form method="post" action="#">
-						<input type="text" name="query" id="query" placeholder="Search" />
-					</form>
-				</section>
 
 				<!-- Menu -->
 				<nav id="menu">
