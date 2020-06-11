@@ -3170,7 +3170,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 #menu li a:before {
 	content: "\025b8";
 	color: #ddd;
-	margin-right: 4px;
+	
 }
 
 #menu input[name="list"] {
@@ -3189,6 +3189,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 
 #menu .interior {
 	display: none;
+	margin-left: 1em; /* nuevo*/
 }
 
 #menu >li >ul >p>.fuente {
