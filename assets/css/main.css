@@ -73,7 +73,7 @@ input, select, textarea {
 
 .fuente {
 font-size: 0.8em;
-font-weight: 600;
+font-weight: 400;
 }
 
 /* Basic */
@@ -3057,7 +3057,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 	border-bottom: 0;
 	color: inherit;
 	cursor: pointer;
-	display: block;
+	/*display: block;*/
 	font-size: 0.9em;
 	padding: 0.2em 0;
 } /*padding: 0.625em 0;*/
@@ -3072,7 +3072,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 }
 
 #menu ul a:hover, #menu ul span:hover {
-	color: #f56a6a;
+	display:inline;
 }
 
 #menu ul a.opener, #menu ul span.opener {
@@ -3193,9 +3193,13 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 }
 
 #menu >li >ul >p>.fuente {
-	font-size: 0.8em;
+	font-size: 0.6em;
 	font-weight: 600;
-	display: inline;
+	display: inline-block /*inline; */
+}
+
+#menu >li >ul >p>.fuente:hover {
+	color: none;
 }
 
 #menu input:checked ~ ul {
