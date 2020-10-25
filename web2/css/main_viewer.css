@@ -58,9 +58,9 @@
   }
 }
 
-.footer {
-  font-size: 0.875rem;
-}
+/*.footer {
+  font-size: 0.875rem; -- se usa el principal 
+} */
 
 .heart {
   color: #ddd;
