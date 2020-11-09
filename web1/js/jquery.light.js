@@ -3,9 +3,9 @@
 		init : function( options ) {
 			var settings = $.extend( {
 				unbind:true,
-				prevText:'Previous',
-				nextText:'Next',
-				loadText:'Loading...',
+				prevText:'<',
+				nextText:'>',
+				loadText:'Cargando...',
 				errorText:'Image not Found',
 				keyboard:true
 			}, options);
