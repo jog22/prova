@@ -16,7 +16,9 @@
 
   <!-- Custom styles for this template -->
   <link href="../css/modern-business.css" rel="stylesheet">
-
+  
+  <!-- Light -->
+	<link rel="stylesheet" href="../css/jquery.light.css">
 </head>
 
 <body>
@@ -86,17 +88,19 @@
       <small>Subheading</small>
     </h1>
 
-    <ol class="breadcrumb">
+<!--     <ol class="breadcrumb">
       <li class="breadcrumb-item">
         <a href="../index.html">Home</a>
       </li>
       <li class="breadcrumb-item active">Portfolio 3</li>
-    </ol>
+    </ol> -->
 
     <div class="row">
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <!-- <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a> -->
+          <a href="../images/taller.jpg" data-caption="This is my caption 1" data-gallery="0" rel="light">
+            <img class="card-img-top" src="../images/taller.jpg"></a>
           <div class="card-body">
             <h4 class="card-title">
               <a href="#">Project One</a>
@@ -107,7 +111,9 @@
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <!-- <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a> -->
+          <a href="../images/img_2.jpg" data-caption="Tarde de verano en el campo de 2020" data-gallery="1" rel="light">
+            <img class="card-img-top" src="../images/img_2.jpg"></a>
           <div class="card-body">
             <h4 class="card-title">
               <a href="#">Project Two</a>
@@ -118,7 +124,9 @@
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <!-- <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a> -->
+          <a href="../images/img_3.jpg" data-caption="This is my caption 1" data-gallery="2" rel="light">
+            <img class="card-img-top" src="../images/img_3.jpg"></a>
           <div class="card-body">
             <h4 class="card-title">
               <a href="#">Project Three</a>
@@ -129,7 +137,9 @@
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <!-- <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a> -->
+          <a href="../images/img_1.jpg" data-caption="This is my caption 1" data-gallery="3" rel="light">
+            <img class="card-img-top" src="../images/img_1.jpg"></a>
           <div class="card-body">
             <h4 class="card-title">
               <a href="#">Project Four</a>
@@ -140,7 +150,9 @@
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <!-- <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a> -->
+          <a href="../images/img_4.jpg" data-caption="This is my caption 1" data-gallery="4" rel="light">
+            <img class="card-img-top" src="../images/img_4.jpg"></a>
           <div class="card-body">
             <h4 class="card-title">
               <a href="#">Project Five</a>
@@ -151,7 +163,9 @@
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <!-- <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a> -->
+          <a href="../images/exposicion1.jpg" data-caption="This is my caption 1" data-gallery="5" rel="light">
+            <img class="card-img-top" src="../images/exposicion1.jpg"></a>
           <div class="card-body">
             <h4 class="card-title">
               <a href="#">Project Six</a>
@@ -201,7 +215,16 @@
   <!-- Bootstrap core JavaScript -->
   <script src="../vendor/jquery/jquery.min.js"></script>
   <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+  
+  <!-- Light -->
+	<script src="../vendor/jquery/jquery-light.min.js"></script>
+  <script src="../js/jquery.light.js"></script>
+  <script>
+		$(function() {
+		$('a[rel=light]').light();
+		});
+  </script>
+  
 </body>
 
 </html>

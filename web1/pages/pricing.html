@@ -16,7 +16,8 @@
 
   <!-- Custom styles for this template -->
   <link href="../css/modern-business.css" rel="stylesheet">
-
+  <!-- Light -->
+  <link rel="stylesheet" href="../css/jquery.light.css">
 </head>
 
 <body>
@@ -98,7 +99,11 @@
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
           <h3 class="card-header bg-primary text-white">Plato</h3>
-          <a href="#"><img class="card-img-top" src="../images/plato.jpg" alt=""></a>
+          <!-- <a href="#"><img class="card-img-top" src="../images/plato.jpg" alt=""></a> -->
+          <a href="../images/plato.jpg" data-caption="Plato 1" data-gallery="1" rel="light">
+            <img class="card-img-top" src="../images/plato.jpg"></a>
+            <a href="../images/plato1.jpg" data-caption="Platos 2" data-gallery="1" rel="light"></a>
+            <a href="../images/plato2.jpg" data-caption="Platos 3" data-gallery="1" rel="light"></a>
           <div class="card-body">
             <div class="display-4">19,99 €</div>
             <div class="font-italic">IVA incluido</div>
@@ -116,7 +121,9 @@
       <div class="col-lg-4 mb-4">
         <div class="card card-outline-primary h-100">
           <h3 class="card-header bg-primary text-white">Cuenco</h3>
-          <a href="#"><img class="card-img-top" src="../images/cuenco.jpg" alt=""></a>
+          <!-- <a href="#"><img class="card-img-top" src="../images/cuenco.jpg" alt=""></a> -->
+          <a href="../images/cuenco.jpg" data-caption="Cuenco" data-gallery="2" rel="light">
+            <img class="card-img-top" src="../images/cuenco.jpg"></a>
           <div class="card-body">
             <div class="display-4">39,99 €</div>
             <div class="font-italic">IVA incluido</div>
@@ -134,7 +141,9 @@
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
           <h3 class="card-header bg-primary text-white">Vajilla</h3>
-          <a href="#"><img class="card-img-top" src="../images/vajilla.jpg" alt=""></a>
+          <!-- <a href="#"><img class="card-img-top" src="../images/vajilla.jpg" alt=""></a> -->
+          <a href="../images/vajilla.jpg" data-caption="Vajilla" data-gallery="3" rel="light">
+            <img class="card-img-top" src="../images/vajilla.jpg"></a>
           <div class="card-body">
             <div class="display-4">159,99 €</div>
             <div class="font-italic">IVA incluido</div>
@@ -166,7 +175,16 @@
   <!-- Bootstrap core JavaScript -->
   <script src="../vendor/jquery/jquery.min.js"></script>
   <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+ 
+  <!-- Light -->
+ <script src="../vendor/jquery/jquery-light.min.js"></script>
+ <script src="../js/jquery.light.js"></script>
+ <script>
+   $(function() {
+   $('a[rel=light]').light();
+   });
+ </script>
+ 
 </body>
 
 </html>
